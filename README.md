@@ -15,7 +15,14 @@ The analysis shows that drowning is the most frequent cause of death and several
 
 ## Data Sources
 - **NPS Mortality Data:** Publicly reported incidents in NPS units https://www.nps.gov/aboutus/mortality-data.htm
+
 - **Park info & visitation:** NPS developer resources https://www.nps.gov/subjects/developer/get-started.htm
+
+- **AI Usage**The `manual_crosswalk` table used in this notebook was generated with the assistance of ChatGPT to minimize copy/paste and encoding errors in character-specific strings (e.g., *Haleakalā*, *Hawaiʻi*, *Wrangell–St. Elias*, “&” vs “and”, etc.). This helped prevent merge failures when normalizing park names.
+
+ After generation, I manually verified every entry by comparing each `fullName`/`parkCode` against the official NPS website for accuracy. Any mismatches were corrected in the crosswalk file before use in the analysis.
+
+The resulting file is saved as `parkname_manual_crosswalk.csv` and versioned in the repository. If an NPS unit is renamed or redesignated in the future, the crosswalk should be reviewed and updated accordingly.
 
 ## Author
 Jessica Long - Data Analysis Student
