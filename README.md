@@ -29,7 +29,7 @@ The resulting file is saved as `parkname_manual_crosswalk.csv` and versioned in 
 After generation, I manually verified each hex code and palette entry by comparing them against the reference palette published here:  
 <https://siegal.bio.nyu.edu/color-palette/>
 
-No discrepencies were found.
+No discrepencies were found other than the omission of black, which was intentional to avoid readability issues.
 
 ## Author
 Jessica Long - Data Analysis Student
