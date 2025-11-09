@@ -1,0 +1,21 @@
+Park Name,Queried parkCode,Matched visitsParkName,Matched visitsParkCode,Notes
+Sequoia & Kings Canyon National Parks,SEKI,Sequoia NP,SEQU,visit_codes has SEQU and KICA separately; SEKI not present.
+Baltimore-Washington Parkway,BAWA,National Capital Parks Combined,NACA,No parkway entries; mapped to NCR umbrella.
+Suitland,,National Capital Parks East,NCPE,Suitland not present; mapped to NCPE.
+National Mall & Memorial Parks,,National Capital Parks Central,NCPC,Mall not present; mapped to NCPC/NACA.
+Great Falls Park,GRFA,National Capital Parks Central,NCPC,Great Falls Park not present; mapped to NCPC.
+Presidio Of San Francisco,,Golden Gate NRA,GOGA,Presidio not present; mapped to Golden Gate NRA (GOGA).
+Anacostia Park,ANAC,National Capital Parks East,NCPE,Anacostia not present; mapped to NCPE.
+National Capital Parks-East,NACE,National Capital Parks East,NCPE,
+Appalachian National Scenic Trail,APPA,,,Appalachian NST not present in visit_codes.
+Obed Wild & Scenic River,OBED,Obed W&SR,OBRI,
+Fort Dupont Park,FODU,National Capital Parks East,NCPE,Fort Dupont not present; mapped to NCPE.
+Saint Croix Island International Historic Site,SACR,Saint Croix Island IHS,SACR,
+Kenilworth Park & Aquatic Gardens,KEAQ,National Capital Parks East,NCPE,Kenilworth not present; mapped to NCPE.
+Fort Foote Park,FOFO,National Capital Parks East,NCPE,Fort Foote not present; mapped to NCPE.
+Glen Echo Park,GLEC,National Capital Parks Central,NCPC,Glen Echo not present; mapped to NCPC.
+Oxon Cove Park & Oxon Hill Farm,OXHI,National Capital Parks East,NCPE,Oxon Cove not present; mapped to NCPE.
+Paterson Great Falls National Historical Park,PAGR,Paterson Great Falls NHP,PAGR,
+First State National Historical Park,FRST,First State NHP,FRST,
+Thomas Jefferson Memorial,THJE,Thomas Jefferson MEM,JEFM,
+American Memorial Park,AMME,,,American Memorial Park (Saipan) not present in visit_codes.
